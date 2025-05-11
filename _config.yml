@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
-title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+title                    : "susupapa / susulabs"
+title_separator          : "|"
+name                     : "susupapa"
+description              : "Links to all I am instrested in"
 url                      : https://susupapa25.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -23,13 +23,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "susupapa"
+  pronouns         : # example: "He/Him"  
+  bio              : "Piping Engineer & "
+  location         : "Seoul, South Korea"
+  employer         : "DLENC"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "sso.jang@gmail.com" 
 
   # Academic websites
   academia         : # URL
@@ -87,7 +87,7 @@ publication_category:
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
+breadcrumbs              : true #false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
